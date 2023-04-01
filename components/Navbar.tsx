@@ -18,8 +18,8 @@ const Navbar = () => {
             </div>
             <ul>
               <li className="md:flex hidden items-center gap-8 font-[poppins]">
-                {links.map((link) => {
-                  return <div>{link.name}</div>;
+                {links.map((link,idx) => {
+                  return <div key={idx}>{link.name}</div>;
                 })}
               </li>
             </ul>
