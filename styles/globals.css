@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 .card {
-  @apply w-[18rem] h-[24rem] block rounded-lg border border-gray-200 mb-5  shadow-md;
+  @apply w-[18rem] h-[28rem] block rounded-lg border border-gray-200 mb-5  shadow-md;
 }
 .img_size {
-  @apply w-44 h-52;
+  @apply w-full h-[18rem];
 }

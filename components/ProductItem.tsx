@@ -14,9 +14,9 @@ const ProductItem = ({ product }: ProductProps) => {
           className="img_size"
         />
       </Link>
-      <div className="flex flex-col items-center justify-center p-5">
+      <div className="flex flex-col items-center justify-center p-5 mt-3">
         <Link href={`/product/${product._id}`}>
-          <h2>{product.name}</h2>
+          <h2 className="text-center">{product.name}</h2>
         </Link>
         <p className="mb-2">{product.brand}</p>
         <h5>{product.price}</h5>
